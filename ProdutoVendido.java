@@ -3,7 +3,7 @@ public class ProdutoVendido {
     }
     
     public getProduto(){
-        return produto;
+        return this.produto;
     }
     
     public getQuantidade(){

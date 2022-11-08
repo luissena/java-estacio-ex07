@@ -29,7 +29,7 @@ public void adicionarVenda() { //Esse método irá adicionar uma venda ao atribu
 
 public double calcularTotalVendas() { //Esse método vai receber todas as vendas adicionadas e fazer uma soma delas
 
-    double somaVendas = this.vendas = ; 
+    double somaVendas = this.vendas; 
     return somaVendas;
     
     // TODO o método calcularTotalVendas irá somar e retornar a soma de todos os valores das vendas através do atributo vendas

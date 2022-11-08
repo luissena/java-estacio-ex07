@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CarrinhoCompra {
-    private ArrayList<ProdutoCarrinho> produtos = new ArrayList<ProdutoCarrinho>();
+    private List<ProdutoCarrinho> produtos = new ArrayList<ProdutoCarrinho>();
     private Venda venda;
     private LojaVirtual lojaVirtual;
 
@@ -10,10 +10,10 @@ public class CarrinhoCompra {
         this.lojaVirtual = lojaVirtual;
     }
 
-    public adicionarItem() {
+    public adicionarItem(String item) {
         //Método que irá adicionar um item
         
-        produtos.add();
+        produtos.add(item);
 
     }
     
@@ -28,7 +28,7 @@ public class CarrinhoCompra {
 
     this.produtos = null;
 
-        // TODO o método esvaziarCarrinho irá apagar todos os itens existentes no atributo produto
+        // TODO Null => Object
         System.gc();
     }
 
@@ -42,7 +42,7 @@ public class CarrinhoCompra {
     public getVenda(int qtdParcela) {
 
         public Venda (){
-            this.Venda = new venda;
+            this.Venda = new Venda;
             // TODO caso o objeto já tenha sido criado, retornar apenas o atributo venda.
         }
     }
